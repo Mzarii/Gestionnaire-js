@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste à faire</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section>
+      <div>
+        <h1>LISTE A FAIRE</h1>
+        <p>gérez et recherchez vos tâches en attente en quelques clics</p>
+      </div>
+      <div>
+        <form id="srch" action="" class="search">
+          <input name="stask" type="text" />
+          <button type="submit" class="btSearch">
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+      </div>
+      <div class="task-box">
+        <ul>
+          <li>
+            <span> task 1</span>
+            <i class="bi bi-x-square-fill"></i>
+          </li>
+          <li>
+            <span>task 2</span>
+            <i class="bi bi-x-square-fill"></i>
+          </li>
+        </ul>
+        <form id="add" action="" class="search">
+          <input name="task" type="text" />
+          <button type="submit" class="btSearch">ADD</button>
+        </form>
+      </div>
+      <div class="foot">
+        <p class="result">vous avez 3 tâches en attente !</p>
+        <button id="clear" class="btSearch">effacer tout</button>
+      </div>
+    </section>
+  </body>
+  <script src="method.js"></script>
+</html>
